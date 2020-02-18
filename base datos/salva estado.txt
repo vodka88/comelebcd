@@ -1,0 +1,12 @@
+--------------------------------------------------------
+-- Archivo creado  - lunes-febrero-01-2016   
+--------------------------------------------------------
+REM INSERTING into SYSTEM.ESTADO
+SET DEFINE OFF;
+Insert into SYSTEM.ESTADO (CLAVE,DESESTADO,FECHA) values ('000000','***************NUEVO','11-01-2016');
+Insert into SYSTEM.ESTADO (CLAVE,DESESTADO,FECHA) values ('000001','*********jilipollas3','11-01-2016');
+Insert into SYSTEM.ESTADO (CLAVE,DESESTADO,FECHA) values ('000003','***************dfer5','19-01-2016');
+Insert into SYSTEM.ESTADO (CLAVE,DESESTADO,FECHA) values ('000002','********tontodelbote','11-01-2016');
+Insert into SYSTEM.ESTADO (CLAVE,DESESTADO,FECHA) values ('000004','****************rtr5','19-01-2016');
+Insert into SYSTEM.ESTADO (CLAVE,DESESTADO,FECHA) values ('000005','***************VIEJO','23-01-2016');
+Insert into SYSTEM.ESTADO (CLAVE,DESESTADO,FECHA) values ('000006','**********VIEJONUEVO','30-01-2016');

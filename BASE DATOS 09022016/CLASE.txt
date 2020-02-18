@@ -1,0 +1,111 @@
+--------------------------------------------------------
+--  DDL for Table CLASE
+--------------------------------------------------------
+
+  CREATE TABLE "SYSTEM"."CLASE" 
+   (	"CLAVE" VARCHAR2(6 CHAR), 
+	"CLASE" VARCHAR2(20 CHAR), 
+	"TIPO" VARCHAR2(20 CHAR), 
+	"SUBTIPO" VARCHAR2(20 CHAR), 
+	"FECHA" VARCHAR2(10 CHAR)
+   ) PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+REM INSERTING into SYSTEM.CLASE
+SET DEFINE OFF;
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000072','***********modificar','***********conmutada','**************DRIVER','09-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000001','*******semiconductor','**********transistor','*****************NPN','15-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000000','*******semiconductor','**********transistor','*****************PNP','15-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000002','*******semiconductor','**********transistor','************MOSFET-N','30-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000003','*************MEMORIA','**********no-volatil','**************EEPROM','30-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000005','*******semiconductor','***************diodo','**************rapido','30-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000004','***Regulador-Tension','***********conmutada','*************flyback','30-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000006','*******semiconductor','**********transistor','************MOSFET-P','30-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000007','*******semiconductor','***************diodo','*****************LED','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000008','*******semiconductor','***************diodo','********Rectificador','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000009','***Regulador-Tension','****regulador-lineal','************positiva','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000010','*******semiconductor','***********integrado','*****Uni_interruptor','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000011','*******semiconductor','***************diodo','*******protec-transi','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000012','*******semiconductor','**********transistor','*********desconocido','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000013','***********OSCILADOR','*************cristal','*********desconocido','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000014','*********RESISTENCIA','*******potenciometro','**************lineal','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000015','*******semiconductor','***************diodo','**************normal','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000016','*******semiconductor','***************diodo','************SCHOTTKY','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000017','*******semiconductor','***************diodo','***************ZENER','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000018','*******semiconductor','***************diodo','*********desconocido','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000019','*******semiconductor','**********transistor','**************JFET-N','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000020','***Regulador-Tension','***********integrado','********POWER_DRIVER','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000021','*******semiconductor','**********transistor','**********FOTOSENSOR','02-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000022','*******semiconductor','**********transistor','*****************SCR','02-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000023','***Regulador-Tension','****regulador-lineal','*****Regulador-SHUNT','02-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000024','*******semiconductor','**********transistor','**********DARLINGTON','02-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000025','***Regulador-Tension','****regulador-lineal','************NEGATIVA','02-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000026','*******semiconductor','***************diodo','***VOLTAJE-REGULADOR','02-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000027','*******semiconductor','***************diodo','*************VARICAP','02-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000028','************SENSORES','***********integrado','***********TACOMETRO','02-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000029','*******semiconductor','***********integrado','******************AO','02-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000030','*******semiconductor','***********integrado','*********FM-DETECTOR','02-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000031','*******semiconductor','***************diodo','**************TRIACS','02-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000032','************SENSORES','***********integrado','*********TEMPERATURA','02-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000033','**************LOGICA','****************CMOS','************INVERSOR','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000034','**************LOGICA','****************CMOS','*****************NOR','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000035','**************LOGICA','****************CMOS','****************NAND','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000036','**************LOGICA','*****************TTL','*****************ALU','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000037','**************LOGICA','*****************TTL','****DECODER-BCD-TO-7','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000038','**************LOGICA','*****************TTL','****************NAND','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000039','**************LOGICA','*****************TTL','*****SHIFT-REGISTERS','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000040','**************LOGICA','*****************TTL','*******POSITIVE-NAND','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000041','**************LOGICA','*****************TTL','********POSITIVE-NOR','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000042','**************LOGICA','*****************TTL','************CONTADOR','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000043','**************LOGICA','*****************TTL','************INVERSOR','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000044','**************LOGICA','*****************TTL','*************SCHMITT','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000045','**************LOGICA','*****************TTL','*****MULTIVIBRADORES','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000046','**************LOGICA','*****************TTL','***********TRI-STATE','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000047','**************LOGICA','*****************TTL','***************LATCH','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000048','***Regulador-Tension','***********integrado','**************DRIVER','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000049','**************LOGICA','*****************TTL','*********FLIP-FLOP-D','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000050','**************LOGICA','*****************TTL','**********BUS-BUFFER','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000051','***Regulador-Tension','***********integrado','*VERTICAL-DEFLECTION','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000052','*******semiconductor','***********integrado','***************TIMER','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000053','*******semiconductor','***********integrado','*VIDEOSYNC-SEPARATOR','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000054','*****ELECTROMECANICO','****************RELE','***********ANALOGICO','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000055','**************LOGICA','****************CMOS','************CONTADOR','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000056','*******semiconductor','***********integrado','***********MODULADOR','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000057','*******semiconductor','***********integrado','VIDEO-PREAMPLIFICADO','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000058','*******semiconductor','***********integrado','***********DC-VOLUME','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000059','*******semiconductor','***********integrado','*********DECODER-PAL','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000060','**************LOGICA','****************CMOS','*****************CPU','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000061','**************LOGICA','***********integrado','*****************ALU','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000062','**************LOGICA','*****************TTL','*********POSITIVE-OR','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000063','*******semiconductor','***********integrado','*********DEMODULADOR','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000064','*******semiconductor','***********integrado','*******CRT-VIDEO-AMP','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000065','***Regulador-Tension','***********conmutada','*VERTICAL-DEFLECTION','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000066','**************LOGICA','****************CMOS','********SINTONIZADOR','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000067','**************LOGICA','****************CMOS','*PUERTAS-TRANSMISION','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000068','**************LOGICA','***********conmutada','*****************ALU','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000069','*******semiconductor','***************diodo','*******OPTOACOPLADOR','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000070','*************MEMORIA','**********no-volatil','***************FLASH','03-02-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000071','********PROTECCIONES','*************FUSIBLE','***********FILAMENTO','03-02-2016');
+--------------------------------------------------------
+--  DDL for Index SYS_C009762
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "SYSTEM"."SYS_C009762" ON "SYSTEM"."CLASE" ("CLAVE") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+--------------------------------------------------------
+--  Constraints for Table CLASE
+--------------------------------------------------------
+
+  ALTER TABLE "SYSTEM"."CLASE" ADD PRIMARY KEY ("CLAVE")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM"  ENABLE;

@@ -1,0 +1,31 @@
+--------------------------------------------------------
+-- Archivo creado  - lunes-febrero-01-2016   
+--------------------------------------------------------
+REM INSERTING into SYSTEM.CLASE
+SET DEFINE OFF;
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000000','*******semiconductor','**********transistor','****************PNP8','13-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000005','***********modificar','*********transistor1','*****************NPN','23-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000001','*******semiconductor','**********transistor','*****************PNP','15-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000002','*******semiconductor','**********transistor','*****************NPN','15-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000003','*******semiconductor','**********transistor','*****************NPN','18-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000004','*******semiconductor','**********transistor','****************NPNs','18-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000006','*******semiconductor','**********transistor','************MOSFET-N','30-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000007','*************MEMORIA','**********no-volatil','**************EEPROM','30-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000009','*******semiconductor','***************diodo','**************rapido','30-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000008','***Regulador-Tension','***********conmutada','*************flyback','30-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000010','*******semiconductor','**********transistor','************MOSFET-P','30-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000011','***********modificar','***************diodo','*****************LED','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000012','***********modificar','***************diodo','********Rectificador','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000013','***********modificar','****regulador-lineal','************positiva','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000014','***********modificar','***********conmutada','**************EEPROM','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000015','***********modificar','***********integrado','*****Uni_interruptor','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000016','***********modificar','***************diodo','*******protec-transi','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000017','***********modificar','**********transistor','*********desconocido','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000018','***********modificar','*************cristal','*********desconocido','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000019','***********modificar','*******potenciometro','**************lineal','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000020','***********modificar','***************diodo','**************normal','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000021','***********modificar','***************diodo','************SCHOTTKY','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000022','***********modificar','***************diodo','***************ZENER','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000023','***********modificar','***************diodo','*********desconocido','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000024','***********modificar','**********transistor','**************JFET-N','31-01-2016');
+Insert into SYSTEM.CLASE (CLAVE,CLASE,TIPO,SUBTIPO,FECHA) values ('000025','***********modificar','***********integrado','********POWER_DRIVER','31-01-2016');
